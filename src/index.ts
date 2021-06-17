@@ -8,6 +8,7 @@ export function vitePluginHost(): Plugin {
     apply: 'serve',
     config: () => ({
       server: {
+        host: '0.0.0.0',
         hmr: {
           host: devip()[0]
         }
