@@ -9,13 +9,13 @@ $ yarn add vite-plugin-host
 
 ### Usage
 ```javascript
-import { vitePluginHost } from 'vite-plugin-host'
+import host from 'vite-plugin-host'
 
 
 module.exports = {
   plugins: [
     // others
-    vitePluginHost()
+    host()
   ]
 }
 ```

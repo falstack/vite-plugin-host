@@ -2,7 +2,7 @@ import type { Plugin } from 'vite'
 // @ts-ignore
 import devip from 'dev-ip'
 
-export function vitePluginHost(): Plugin {
+export default function vitePluginHost(): Plugin {
   return {
     name: 'vite-plugin-host',
     apply: 'serve',
