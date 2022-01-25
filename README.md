@@ -8,6 +8,8 @@ $ yarn add vite-plugin-host
 ```
 
 ### Usage
+> work with `SwitchyOmega`
+
 ```javascript
 import host from 'vite-plugin-host'
 
